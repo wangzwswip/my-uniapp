@@ -9,6 +9,7 @@
 				}
 			}
 		},
+		// 我的下面模块
 		{
 			"path": "pages/tabBar/My/My",
 			"style": {
@@ -18,6 +19,12 @@
 				}
 			}
 		},
+		{
+      "path": "pages/myBasic/biaoDan/biaoDan",
+      "style": {
+        "navigationBarTitleText": "封装表单"
+      }
+    },
 		{
 			"path": "pages/tabBar/OtherExa/OtherExa",
 			"style": {

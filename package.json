@@ -1,0 +1,19 @@
+{
+  "name": "smart-build-app",
+  "version": "2.6.8",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darksc",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "0.0.8",
+    "dayjs": "^1.8.14",
+    "mescroll-uni": "^1.1.5",
+    "mpvue-echarts": "^0.3.1",
+    "node-sass": "^4.12.0",
+    "seedrandom": "^3.0.5"
+  }
+}

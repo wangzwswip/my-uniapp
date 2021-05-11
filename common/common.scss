@@ -1,0 +1,80 @@
+$font_h1: 36upx;
+$font_h2: 32upx;
+$font_h3: 30upx;
+$font_h4: 28upx;
+$font_h5: 24upx;
+$font_h6: 22upx;
+$font_h7: 20upx;
+
+$color_1: #2989f0;
+$color_2: #f7f7f7;
+
+$color_gray_9: rgba(
+  $color: #000000,
+  $alpha: 0.9
+);
+$color_gray_3: rgba(
+  $color: #000000,
+  $alpha: 0.3
+);
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('~@/static/fonts/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+    font-family: 'iconfont'!important;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+
+@mixin font-color {
+  background: linear-gradient(146deg, rgba(255, 101, 70, 1) 0%, rgba(255, 158, 83, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin progress-background {
+  background: linear-gradient(90deg, rgba(255, 101, 70, 1), rgba(255, 158, 83, 1));
+  &.success {
+    background: linear-gradient(90deg, rgba(36, 206, 144, 1), rgba(80, 251, 128, 1));
+  }
+}
+
+@mixin status-color {
+  &.orange {
+    background: rgba($color: #ff6440, $alpha: 0.1);
+    color: #ff6440 !important;
+  }
+
+  &.blue {
+    background: rgba($color: #2989f0, $alpha: 0.1);
+    color: #2989f0 !important;
+  }
+
+  &.green {
+    background: rgba($color: #29d38e, $alpha: 0.1);
+    color: #29d38e !important;
+  }
+
+  &.gray {
+    background: rgba($color: #333, $alpha: 0.1);
+    color: #333 !important;
+  }
+
+  &.red {
+    background: rgba($color: #ff4549, $alpha: 0.1);
+    color: #ff4549;
+  }
+}

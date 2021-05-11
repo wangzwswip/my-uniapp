@@ -1,0 +1,223 @@
+@import './common.scss';
+// @import './panel.scss';
+// @import './list.scss';
+@import './form.scss';
+
+// 全屏 切换导航样式
+.page-nav-wrap,
+.page-search-wrap {
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+
+  .page-nav,
+  .page-search {
+    width: 100%;
+    height: 100upx;
+    padding: 15upx 0;
+    box-sizing: border-box;
+    // border-bottom: 1px solid #ebebeb;
+    background: #fff;
+    &.blue {
+      background: $color_1;
+    }
+  }
+
+  .page-search {
+    display: flex;
+    border-bottom: 1upx solid #ebebeb;
+    .search-form {
+      padding: 0 30upx;
+      flex: 1;
+      display: flex;
+
+      .bottom-arrow {
+        position: relative;
+        &:after {
+          position: absolute;
+          right: 0;
+          height: 70upx;
+          line-height: 70upx;
+          width: 32upx;
+          top: 0;
+          font-family: 'iconfont' !important;
+          font-size: 30upx;
+          font-style: normal;
+          content: '\e77e';
+          color: rgba($color: #000000, $alpha: 0.5);
+          background: #fff;
+          pointer-events: none;
+        }
+      }
+
+      .placeholder {
+        color: rgba($color: #000000, $alpha: 0.3);
+      }
+      .search-input {
+        position: relative;
+        flex: 1;
+        margin: 0 10upx;
+        border: 1upx solid #ebebeb;
+        border-radius: 10upx;
+        padding: 0 10upx;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		height: 70upx;
+        .clear-search-item {
+          &:before {
+            font-family: 'iconfont' !important;
+            font-size: 22upx;
+            font-style: normal;
+            content: '\e69e';
+          }
+          position: absolute;
+          right: 0;
+          height: 70upx;
+          line-height: 70upx;
+          width: 32upx;
+          top: 0;
+          color: rgba($color: #000000, $alpha: 0.5);
+          background: #fff;
+          z-index: 1;
+        }
+        input,
+        text,
+        picker {
+          height: 70upx;
+          line-height: 70upx;
+          font-size: $font_h4;
+        }
+      }
+    }
+
+    .search-btn {
+      padding-right: 30upx;
+      text-align: center;
+      line-height: 70upx;
+      color: $color_1;
+      font-size: $font_h4;
+    }
+  }
+
+  .page-body {
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .page-button {
+    border-top: 1px solid #ebebeb;
+  }
+}
+
+// 进度条
+.progress-wrap {
+  border-radius: 30upx;
+  width: 100%;
+  background: #f2f2f2;
+  line-height: 20upx;
+  height: 20upx;
+  overflow: hidden;
+  font-size: 0;
+
+  view {
+    line-height: 20upx;
+    height: 20upx;
+    border-radius: 30upx 0 0 30upx;
+    @include progress-background;
+  }
+}
+
+.data-banner-bg-wrap {
+  background: #fff;
+  overflow: hidden;
+
+  .data-banner-bg {
+    position: absolute;
+    background: linear-gradient(0deg, rgba(90, 194, 252, 1), rgba(50, 140, 244, 1));
+    width: 100%;
+    height: 300upx;
+  }
+}
+
+/* 提示窗口 */
+.uni-tip {
+  /* #ifndef APP-NVUE */
+  display: flex;
+  flex-direction: column;
+  /* #endif */
+  width: 80%;
+  background-color: #fff;
+  border-radius: 20upx;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+
+  &.uni-form-tip {
+    .uni-aotu-tip,
+    .uni-tip-content {
+      text-align: left;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .uni-tip-group-button {
+      margin: 0;
+    }
+    .uni-form {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &.uni-aotu-tip {
+    width: initial;
+  }
+  .uni-tip-title {
+    margin: 60upx 0 0.8em;
+    font-weight: 700;
+    font-size: $font_h2;
+    color: #000;
+  }
+  .uni-tip-content {
+    padding: 0 60upx;
+    font-size: $font_h4;
+    line-height: 60upx;
+    color: rgba($color: #000000, $alpha: 0.8);
+  }
+  .uni-tip-group-button {
+    /* #ifndef APP-NVUE */
+    display: flex;
+    /* #endif */
+    flex-direction: row;
+    margin: 30upx 0 0;
+    .uni-tip-button {
+      flex: 1;
+      height: 100upx;
+      line-height: 100upx;
+      background: none !important;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      font-size: $font_h4;
+      color: #828282;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      @include status-color;
+    }
+  }
+}
+
+.no-data-wrap {
+  text-align: center;
+  margin-top: 200upx;
+  padding: 0 45upx;
+  image {
+    width: 60%;
+  }
+}
