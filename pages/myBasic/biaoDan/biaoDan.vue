@@ -17,29 +17,56 @@
           </picker>
         </view>
       </view>
+      <view class="uni-form-item">
+				<view class="title">交底分类</view>
+				<view class="item">
+					<picker @change="bindPickerChange" data-key="fl" :range="flList" range-key="value">
+						<view class="uni-input" :class="form.flName ? '' : 'custom-placeholder'">{{ form.flName ? form.flName : '请选择分类' }}</view>
+					</picker>
+				</view>
+			</view>
+      <view class="uni-form-item">
+				<view class="title">选择跳转</view>
+				<view class="item" @tap="handleZone">
+					<text class="right-arrow"
+						:class="zone.zoneName ? '' : 'custom-placeholder'">{{ zone.zoneName ? zone.zoneName : '请选择' }}</text>
+				</view>
+			</view>
     </view>
     <view class="uni-form-button"><button type="primary" @tap="handleAdd">提交</button></view>
   </view>
 </template>
 
 <script>
+import dateMixins from '@/mixins/dateMixins.js'
+	import { mapState } from 'vuex'
 export default {
+  mixins: [dateMixins],
   data () {
     return {
       form: {
         name: '',
         name2: '',
-        date: ''
-      }
+        date: '',
+        flId: '',
+        flName: ''
+      },
+      flList: [
+        {
+          value: '分类一',
+					id: '1'
+        },
+        {
+          value: '分类2',
+					id: '2'
+        }
+      ]
     }
   },
   computed: {
-    startDate() {
-      return this.getDate('start')
-    },
-    endDate() {
-      return this.getDate('end')
-    }
+    ...mapState({
+      zone: state => state.index.zone
+    })
   },
   methods: {
     handleAdd () {
@@ -57,14 +84,24 @@ export default {
       console.log(e.target.value)
       this.form[e.target.dataset.key] = e.target.value
     },
-    getDate(type) {
-      const date = new Date()
-      let year = date.getFullYear()
-      let month = date.getMonth() + 1
-      let day = date.getDate()
-
-      return `${year}-${month}-${day}`
+    bindPickerChange (e) {
+      const targetObj = this.options[e.target.dataset.key]
+				const nameKey = {
+					rectify: 'realName',
+					leader: 'leaderName'
+				}
+				const keys = nameKey[e.target.dataset.key]
+				console.log(keys)
+				this.form[e.target.dataset.key + 'Id'] = targetObj[e.target.value].id
+				this.form[e.target.dataset.key + 'Name'] = targetObj[e.target.value].value || targetObj[e.target.value][
+					keys
+				]
     },
+    handleZone() {
+			uni.navigateTo({
+				url: '../../commonPage/myTree'
+			})
+		},
   }
 }
 </script>

@@ -33,7 +33,14 @@
 					"bounce": "vertical"
 				}
 			}
-		}
+		},
+		// 公共模块
+		{
+      "path": "pages/commonPage/myTree",
+      "style": {
+        "navigationBarTitleText": "选择树"
+      }
+    }
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
