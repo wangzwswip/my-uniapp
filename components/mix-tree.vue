@@ -133,6 +133,7 @@
 	justify-content: center;
 }
 .mix-tree-list {
+	width: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 30rpx;

@@ -23,18 +23,18 @@ const keys = {
   },
   '1002': {
     icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/temporary/temporary'
+    path: '../../myBasic/myCalendar/myCalendar'
   },
   '1003': {
-    icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/unit/unit'
+    icon: '../../../static/images/main/icon_1003.png',
+    path: '../../myBasic/mySign/mySign'
   },
   '1004': {
-    icon: '../../../static/images/main/icon_1002.png',
+    icon: '../../../static/images/main/icon_1004.png',
     path: '../labor/team/team'
   },
   '1005': {
-    icon: '../../../static/images/main/icon_1002.png',
+    icon: '../../../static/images/main/icon_1005.png',
     path: '../labor/person/person-list/person-list'
   },
   // 项目管理
@@ -187,11 +187,11 @@ export default {
               code: '1001'
             },
             {
-              title: '零工确认',
+              title: '日历',
               code: '1002'
             },
             {
-              title: '参建单位',
+              title: '签名',
               code: '1003'
             },
             {

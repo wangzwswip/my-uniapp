@@ -38,7 +38,7 @@ export default {
               rate: 3
             }
           ]
-        }
+        },
         {
           id: '02',
           name: 'D',
