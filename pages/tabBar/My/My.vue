@@ -44,11 +44,11 @@ const keys = {
   },
   '2002': {
     icon: '../../../static/images/main/icon_2002.png',
-    path: '../project/progress/progress'
+    path: '../../myBasic/myUpdate/myUpdate'
   },
   '2003': {
     icon: '../../../static/images/main/icon_2003.png',
-    path: '../project/log/new-log/new-log'
+    path: '../../myBasic/myMonitor/myMonitor'
   },
   '2005': {
     icon: '../../../static/images/main/icon_2005.png',
@@ -213,11 +213,11 @@ export default {
               code: '2001'
             },
             {
-              title: 'a',
+              title: '检查更新',
               code: '2002'
             },
             {
-              title: 'a',
+              title: '监控',
               code: '2003'
             },
             {

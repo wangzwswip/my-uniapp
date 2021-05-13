@@ -9,6 +9,25 @@
 				}
 			}
 		},
+		// 官方
+		{
+      "path": "pages/official/scrollView/scrollView",
+      "style": {
+        "navigationBarTitleText": "区域滚动"
+      }
+    },
+		{
+      "path": "pages/official/mySwiper/mySwiper",
+      "style": {
+        "navigationBarTitleText": "轮播"
+      }
+    },
+		{
+      "path": "pages/official/movable-view/movable-view",
+      "style": {
+        "navigationBarTitleText": "滑动"
+      }
+    },
 		// 我的下面模块
 		{
 			"path": "pages/tabBar/My/My",
@@ -53,6 +72,24 @@
       "path": "pages/myBasic/myCall/myCall",
       "style": {
         "navigationBarTitleText": "电话"
+      }
+    },
+		{
+      "path": "pages/myBasic/myUpdate/myUpdate",
+      "style": {
+        "navigationBarTitleText": "更新"
+      }
+    },
+		{
+      "path": "pages/myBasic/myMonitor/myMonitor",
+      "style": {
+        "navigationBarTitleText": "监控"
+      }
+    },
+		{
+      "path": "pages/myBasic/myMonitor/video",
+      "style": {
+        "navigationBarTitleText": "视频"
       }
     },
 		{

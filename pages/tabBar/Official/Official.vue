@@ -16,18 +16,18 @@
 
 <script>
 const keys = {
-  // 劳务管理
+  // 
   '1001': {
     icon: '../../../static/images/main/icon_1001.png',
-    path: '../labor/discipline/discipline'
+    path: '../../official/scrollView/scrollView'
   },
   '1002': {
     icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/temporary/temporary'
+    path: '../../official/mySwiper/mySwiper'
   },
   '1003': {
     icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/unit/unit'
+    path: '../../official/movable-view/movable-view'
   },
   '1004': {
     icon: '../../../static/images/main/icon_1002.png',
@@ -179,19 +179,19 @@ export default {
       keys: keys,
       modules: [
         {
-          title: '劳务管理',
+          title: '内置组件',
           code: '10',
           child: [
             {
-              title: '违章登记',
+              title: '区域滚动',
               code: '1001'
             },
             {
-              title: '零工确认',
+              title: '轮播',
               code: '1002'
             },
             {
-              title: '参建单位',
+              title: '拖动',
               code: '1003'
             },
             {

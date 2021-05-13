@@ -11,3 +11,10 @@ export const getAllZone = () => {
     url: '/aa/ss/dd/all'
   })
 }
+
+// 区域
+export const getLatestVersion = () => {
+  return ajax({
+    url: '/aa/ss/dd/all'
+  })
+}
