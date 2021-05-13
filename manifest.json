@@ -67,5 +67,22 @@
     },
     "uniStatistics": {  
         "enable": false
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "router" : {
+            "mode" : "history",
+            "base" : ""
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "TKUBZ-D24AF-GJ4JY-JDVM2-IBYKK-KEBCU"
+                }
+            }
+        },
+        "async" : {
+            "timeout" : 20000
+        }
     }
 }

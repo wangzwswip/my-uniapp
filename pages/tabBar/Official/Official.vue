@@ -31,57 +31,65 @@ const keys = {
   },
   '1004': {
     icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/team/team'
+    path: '../../official/cover-view/cover-view'
   },
   '1005': {
     icon: '../../../static/images/main/icon_1002.png',
-    path: '../labor/person/person-list/person-list'
+    path: '../../official/rich-text/rich-text'
   },
   // 项目管理
   '2001': {
     icon: '../../../static/images/main/icon_2001.png',
-    path: '../project/plan/plan'
+    path: '../../official/normal-form/normal-form'
   },
   '2002': {
     icon: '../../../static/images/main/icon_2002.png',
-    path: '../project/progress/progress'
+    path: '../../official/input/input'
   },
   '2003': {
     icon: '../../../static/images/main/icon_2003.png',
-    path: '../project/log/new-log/new-log'
-  },
-  '2005': {
-    icon: '../../../static/images/main/icon_2005.png',
-    path: '../quality/skill/skill'
+    path: '../../official/picker/picker'
   },
   '2004': {
     icon: '../../../static/images/main/icon_2004.png',
-    path: '../project/confirm/confirm'
+    path: '../../official/editor/editor'
+  },
+  '2005': {
+    icon: '../../../static/images/main/icon_2005.png',
+    path: '../../official/video/video'
+  },
+  '2006': {
+    icon: '../../../static/images/main/icon_2005.png',
+    path: '../../official/audio/audio'
+  },
+  '2007': {
+    icon: '../../../static/images/main/icon_2003.png',
+    path: '../../official/web-view/web-view'
   },
   // 物料管理
   '3001': {
     icon: '../../../static/images/main/icon_3001.png',
-    path: '../material/new-apply/new-apply'
+    path: '../../API/set-navigation-bar-title/set-navigation-bar-title'
   },
   '3002': {
     icon: '../../../static/images/main/icon_3002.png',
-    path: '../material/procurement/procurement'
+    path: '../../API/pull-down-refresh/pull-down-refresh'
   },
   '3003': {
     icon: '../../../static/images/main/icon_3003.png',
-    path: '../material/acceptance/acceptance'
+    path: '../../API/animation/animation'
   },
   '3004': {
     icon: '../../../static/images/main/icon_3004.png',
-    path: '../material/check-in/check-list'
+    path: '../../API/get-node-info/get-node-info'
   },
   '3005': {
     icon: '../../../static/images/main/icon_3005.png',
-    path: '../material/registration-out/registration-out'
+    path: '../../API/action-sheet/action-sheet'
   },
   '3006': {
     icon: '../../../static/images/main/icon_3006.png',
-    path: '../material/surplus-returned/surplus-returned'
+    path: '../../API/modal/modal'
   },
   '3007': {
     icon: '../../../static/images/main/icon_3007.png',
@@ -195,47 +203,131 @@ export default {
               code: '1003'
             },
             {
-              title: '劳务班组',
+              title: '覆盖',
               code: '1004'
             },
             {
-              title: '劳务人员',
+              title: '富文本',
               code: '1005'
             }
           ]
         },
         {
-          title: '项目管理',
+          title: '表单',
           code: '20',
           child: [
             {
-              title: '施工日志',
+              title: '常用',
               code: '2001'
             },
             {
-              title: '技术交底',
+              title: '输入框',
               code: '2002'
             },
             {
-              title: '完工确认',
+              title: '选择',
               code: '2003'
             },
             {
-              title: '任务单',
+              title: '编辑器',
               code: '2004'
             },
             {
-              title: '项目任务',
+              title: '视频',
               code: '2005'
+            },
+            {
+              title: '音频',
+              code: '2006'
+            },
+            {
+              title: '网页',
+              code: '2007'
             }
           ]
         },
         {
-          title: '安全管理',
+          title: '接口',
+          code: '30',
+          child: [
+            {
+              title: '导航栏',
+              code: '3001'
+            },
+            {
+              title: '下拉刷新',
+              code: '3002'
+            },
+            {
+              title: '动画',
+              code: '3003'
+            },
+            {
+              title: '节点信息',
+              code: '3004'
+            },
+            {
+              title: '操作菜单',
+              code: '3005'
+            },
+            {
+              title: '弹窗',
+              code: '3006'
+            },
+            {
+              title: '盘库登记',
+              code: '3007'
+            }
+          ]
+        },
+        {
+          title: '接口',
+          code: '40',
+          child: [
+            {
+              title: '机械计划',
+              code: '4001'
+            },
+            {
+              title: '计划审批',
+              code: '4009'
+            },
+            {
+              title: '机械租赁',
+              code: '4002'
+            },
+            {
+              title: '上岗报备',
+              code: '4003'
+            },
+            {
+              title: '离岗记录',
+              code: '4004'
+            },
+            {
+              title: '进场检验',
+              code: '4005'
+            },
+            {
+              title: '特种人员登记',
+              code: '4006'
+            },
+            {
+              title: '机械问题',
+              code: '4007'
+            },
+            {
+              title: '台班签认',
+              code: '4008'
+            }
+          ]
+        },
+        {
+          title: '接口',
           code: '50',
           child: [
             {
-              title: '巡检计划',
+              title: '导航栏',
               code: '5001'
             },
             {
@@ -276,86 +368,6 @@ export default {
         title: '质量验收',
         code: '6005'
 			}
-          ]
-        },
-        {
-          title: '物料管理',
-          code: '30',
-          child: [
-            {
-              title: '物料申请',
-              code: '3001'
-            },
-            {
-              title: '物料审批',
-              code: '3008'
-            },
-            {
-              title: '采购记录',
-              code: '3002'
-            },
-            {
-              title: '进场验收',
-              code: '3003'
-            },
-            {
-              title: '入库登记',
-              code: '3004'
-            },
-            {
-              title: '出库登记',
-              code: '3005'
-            },
-            {
-              title: '余料退回',
-              code: '3006'
-            },
-            {
-              title: '盘库登记',
-              code: '3007'
-            }
-          ]
-        },
-        {
-          title: '机械管理',
-          code: '40',
-          child: [
-            {
-              title: '机械计划',
-              code: '4001'
-            },
-            {
-              title: '计划审批',
-              code: '4009'
-            },
-            {
-              title: '机械租赁',
-              code: '4002'
-            },
-            {
-              title: '上岗报备',
-              code: '4003'
-            },
-            {
-              title: '离岗记录',
-              code: '4004'
-            },
-            {
-              title: '进场检验',
-              code: '4005'
-            },
-            {
-              title: '特种人员登记',
-              code: '4006'
-            },
-            {
-              title: '机械问题',
-              code: '4007'
-            },
-            {
-              title: '台班签认',
-              code: '4008'
-            }
           ]
         }
       ]

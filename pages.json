@@ -28,6 +28,96 @@
         "navigationBarTitleText": "滑动"
       }
     },
+		{
+      "path": "pages/official/cover-view/cover-view",
+      "style": {
+        "navigationBarTitleText": "覆盖"
+      }
+    },
+		{
+      "path": "pages/official/rich-text/rich-text",
+      "style": {
+        "navigationBarTitleText": "富文本"
+      }
+    },
+		{
+      "path": "pages/official/normal-form/normal-form",
+      "style": {
+        "navigationBarTitleText": "常用表单元素"
+      }
+    },
+		{
+      "path": "pages/official/input/input",
+      "style": {
+        "navigationBarTitleText": "输入框"
+      }
+    },
+		{
+      "path": "pages/official/picker/picker",
+      "style": {
+        "navigationBarTitleText": "选择"
+      }
+    },
+		{
+      "path": "pages/official/editor/editor",
+      "style": {
+        "navigationBarTitleText": "编辑器"
+      }
+    },
+		{
+      "path": "pages/official/video/video",
+      "style": {
+        "navigationBarTitleText": "视频"
+      }
+    },
+		{
+      "path": "pages/official/audio/audio",
+      "style": {
+        "navigationBarTitleText": "音频"
+      }
+    },
+		{
+      "path": "pages/official/web-view/web-view",
+      "style": {
+        "navigationBarTitleText": "网页"
+      }
+    },
+		{
+      "path": "pages/API/set-navigation-bar-title/set-navigation-bar-title",
+      "style": {
+        "navigationBarTitleText": "修改导航栏"
+      }
+    },
+		{
+      "path": "pages/API/pull-down-refresh/pull-down-refresh",
+      "style": {
+        "navigationBarTitleText": "下拉刷新"
+      }
+    },
+		{
+      "path": "pages/API/animation/animation",
+      "style": {
+        "navigationBarTitleText": "动画"
+      }
+    },
+		{
+      "path": "pages/API/get-node-info/get-node-info",
+      "style": {
+        "navigationBarTitleText": "节点信息"
+      }
+    },
+		{
+      "path": "pages/API/action-sheet/action-sheet",
+      "style": {
+        "navigationBarTitleText": "操作菜单"
+      }
+    },
+		{
+      "path": "pages/API/modal/modal",
+      "style": {
+        "navigationBarTitleText": "弹窗"
+      }
+    },
 		// 我的下面模块
 		{
 			"path": "pages/tabBar/My/My",
