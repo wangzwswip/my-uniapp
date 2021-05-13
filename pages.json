@@ -38,6 +38,24 @@
       }
     },
 		{
+      "path": "pages/myBasic/myDownload/myDownload",
+      "style": {
+        "navigationBarTitleText": "下载"
+      }
+    },
+		{
+      "path": "pages/myBasic/myEcharts/myEcharts",
+      "style": {
+        "navigationBarTitleText": "图表"
+      }
+    },
+		{
+      "path": "pages/myBasic/myCall/myCall",
+      "style": {
+        "navigationBarTitleText": "电话"
+      }
+    },
+		{
 			"path": "pages/tabBar/OtherExa/OtherExa",
 			"style": {
 				"navigationBarTitleText": "其他",

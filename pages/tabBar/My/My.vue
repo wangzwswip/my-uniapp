@@ -31,16 +31,16 @@ const keys = {
   },
   '1004': {
     icon: '../../../static/images/main/icon_1004.png',
-    path: '../labor/team/team'
+    path: '../../myBasic/myDownload/myDownload'
   },
   '1005': {
-    icon: '../../../static/images/main/icon_1005.png',
-    path: '../labor/person/person-list/person-list'
+    icon: '../../../static/images/main/icon_1002.png',
+    path: '../../myBasic/myEcharts/myEcharts'
   },
   // 项目管理
   '2001': {
     icon: '../../../static/images/main/icon_2001.png',
-    path: '../project/plan/plan'
+    path: '../../myBasic/myCall/myCall'
   },
   '2002': {
     icon: '../../../static/images/main/icon_2002.png',
@@ -195,165 +195,165 @@ export default {
               code: '1003'
             },
             {
-              title: '劳务班组',
+              title: '下载',
               code: '1004'
             },
             {
-              title: '劳务人员',
+              title: 'echarts',
               code: '1005'
             }
           ]
         },
         {
-          title: '项目管理',
+          title: '我的设置',
           code: '20',
           child: [
             {
-              title: '施工日志',
+              title: '电话',
               code: '2001'
             },
             {
-              title: '技术交底',
+              title: 'a',
               code: '2002'
             },
             {
-              title: '完工确认',
+              title: 'a',
               code: '2003'
             },
             {
-              title: '任务单',
+              title: 'a',
               code: '2004'
             },
             {
-              title: '项目任务',
+              title: 'a',
               code: '2005'
             }
           ]
         },
         {
-          title: '安全管理',
+          title: 'a',
           code: '50',
           child: [
             {
-              title: '巡检计划',
+              title: 'a',
               code: '5001'
             },
             {
-              title: '安全检查',
+              title: 'a',
               code: '5003'
             },
             {
-              title: '问题整改',
+              title: 'a',
               code: '5004'
             },
             {
-              title: '整改验收',
+              title: 'a',
               code: '5005'
             }
           ]
         },
         {
-          title: '质量管理',
+          title: 'a',
           code: '60',
           child: [
             {
-              title: '质量计划',
+              title: 'a',
               code: '6001'
             },
             {
-              title: '质量检查',
+              title: 'a',
               code: '6002'
             },
             {
-              title: '问题整改',
+              title: 'a',
               code: '6003'
             },
             {
-              title: '整改验收',
+              title: 'a',
               code: '6004'
             },
-			{
-        title: '质量验收',
-        code: '6005'
-			}
+            {
+              title: '质量b验收',
+              code: '6005'
+            }
           ]
         },
         {
-          title: '物料管理',
+          title: 'c',
           code: '30',
           child: [
             {
-              title: '物料申请',
+              title: 'c',
               code: '3001'
             },
             {
-              title: '物料审批',
+              title: 'c',
               code: '3008'
             },
             {
-              title: '采购记录',
+              title: 'c',
               code: '3002'
             },
             {
-              title: '进场验收',
+              title: 'c',
               code: '3003'
             },
             {
-              title: '入库登记',
+              title: 'c',
               code: '3004'
             },
             {
-              title: '出库登记',
+              title: 'c',
               code: '3005'
             },
             {
-              title: '余料退回',
+              title: 'c',
               code: '3006'
             },
             {
-              title: '盘库登记',
+              title: 'c',
               code: '3007'
             }
           ]
         },
         {
-          title: '机械管理',
+          title: 'd',
           code: '40',
           child: [
             {
-              title: '机械计划',
+              title: 'd',
               code: '4001'
             },
             {
-              title: '计划审批',
+              title: 'd',
               code: '4009'
             },
             {
-              title: '机械租赁',
+              title: 'd',
               code: '4002'
             },
             {
-              title: '上岗报备',
+              title: 'd',
               code: '4003'
             },
             {
-              title: '离岗记录',
+              title: 'd',
               code: '4004'
             },
             {
-              title: '进场检验',
+              title: 'd',
               code: '4005'
             },
             {
-              title: '特种人员登记',
+              title: 'd',
               code: '4006'
             },
             {
-              title: '机械问题',
+              title: 'd',
               code: '4007'
             },
             {
-              title: '台班签认',
+              title: 'd',
               code: '4008'
             }
           ]

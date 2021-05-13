@@ -21,6 +21,71 @@
   height: 0;
 }
 
+.panel-group-title {
+  height: 80upx;
+  line-height: 80upx;
+  background: #f7f7f7;
+  padding: 0 45upx;
+  zoom: 1;
+}
+
+.panel-group-title:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+
+.panel-group-title .title {
+  float: left;
+  font-size: 36upx;
+  color: #000;
+}
+
+.panel-group-title .right-block {
+  float: right;
+  height: 80upx;
+  line-height: 80upx;
+  overflow: hidden;
+}
+
+.panel-wrap {
+  background: #fff;
+  margin-bottom: 10upx;
+}
+
+.panel-wrap .uni-list-ul {
+  padding: 0;
+}
+
+.panel-wrap .panel-title {
+  padding: 45upx;
+  padding-bottom: 0;
+  font-size: 36upx;
+}
+
+.panel-wrap .panel-title .panel-title-icon {
+  height: 30upx;
+  width: 30upx;
+  margin-right: 30upx;
+}
+
+.panel-wrap .panel-title .right-block {
+  float: right;
+}
+
+.panel-wrap .panel-title .right-block.small {
+  font-size: 24upx;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 6upx;
+}
+
+.panel-wrap .panel-content {
+  padding: 40upx 45upx;
+}
+
 .uni-list-ul {
   padding: 0 45rpx;
   background: #fff;
