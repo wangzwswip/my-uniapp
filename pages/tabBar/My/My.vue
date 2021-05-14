@@ -58,48 +58,47 @@ const keys = {
     icon: '../../../static/images/main/icon_2004.png',
     path: '../project/confirm/confirm'
   },
-  // 物料管理
+  // 模板
   '3001': {
     icon: '../../../static/images/main/icon_3001.png',
-    path: '../material/new-apply/new-apply'
+    path: '../../template/nav-button/nav-button'
   },
   '3002': {
     icon: '../../../static/images/main/icon_3002.png',
-    path: '../material/procurement/procurement'
+    path: '../../template/nav-dot/nav-dot'
   },
   '3003': {
     icon: '../../../static/images/main/icon_3003.png',
-    path: '../material/acceptance/acceptance'
+    path: '../../template/nav-city-dropdown/nav-city-dropdown'
   },
   '3004': {
     icon: '../../../static/images/main/icon_3004.png',
-    path: '../material/check-in/check-list'
+    path: '../../template/nav-search-input/nav-search-input'
   },
   '3005': {
     icon: '../../../static/images/main/icon_3005.png',
-    path: '../material/registration-out/registration-out'
+    path: '../../template/nav-transparent/nav-transparent'
   },
   '3006': {
     icon: '../../../static/images/main/icon_3006.png',
-    path: '../material/surplus-returned/surplus-returned'
+    path: '../../template/nav-image/nav-image'
   },
   '3007': {
     icon: '../../../static/images/main/icon_3007.png',
-    path: '../material/storehouse/storehouse'
+    path: '../../template/tabbar/tabbar'
   },
   '3008': {
     icon: '../../../static/images/main/icon_3007.png',
-    path: '../material/new-apply/apply/apply'
+    path: '../../template/ucharts/ucharts'
   },
 
-  // 机械管理
-  '4001': {
-    icon: '../../../static/images/main/icon_4001.png',
-    path: '../machine/machine-plan/new-plan/new-plan'
+  '3009': {
+    icon: '../../../static/images/main/icon_3006.png',
+    path: '../../template/list2detail-list/list2detail-list'
   },
-  '4002': {
+  '3010': {
     icon: '../../../static/images/main/icon_4002.png',
-    path: '../machine/machine-lease/machine-lease'
+    path: '../../template/swiper-vertical/swiper-vertical'
   },
   '4003': {
     icon: '../../../static/images/main/icon_4003.png',
@@ -231,130 +230,48 @@ export default {
           ]
         },
         {
-          title: 'a',
-          code: '50',
-          child: [
-            {
-              title: 'a',
-              code: '5001'
-            },
-            {
-              title: 'a',
-              code: '5003'
-            },
-            {
-              title: 'a',
-              code: '5004'
-            },
-            {
-              title: 'a',
-              code: '5005'
-            }
-          ]
-        },
-        {
-          title: 'a',
-          code: '60',
-          child: [
-            {
-              title: 'a',
-              code: '6001'
-            },
-            {
-              title: 'a',
-              code: '6002'
-            },
-            {
-              title: 'a',
-              code: '6003'
-            },
-            {
-              title: 'a',
-              code: '6004'
-            },
-            {
-              title: '质量b验收',
-              code: '6005'
-            }
-          ]
-        },
-        {
-          title: 'c',
+          title: '模板',
           code: '30',
           child: [
             {
-              title: 'c',
+              title: '导航栏按钮',
               code: '3001'
             },
             {
-              title: 'c',
-              code: '3008'
-            },
-            {
-              title: 'c',
+              title: '红点和角标',
               code: '3002'
             },
             {
-              title: 'c',
+              title: '带城市选择',
               code: '3003'
             },
             {
-              title: 'c',
+              title: '带搜索',
               code: '3004'
             },
             {
-              title: 'c',
+              title: '渐变',
               code: '3005'
             },
             {
-              title: 'c',
+              title: '带图片',
               code: '3006'
             },
             {
-              title: 'c',
+              title: '顶部选项卡',
               code: '3007'
-            }
-          ]
-        },
-        {
-          title: 'd',
-          code: '40',
-          child: [
-            {
-              title: 'd',
-              code: '4001'
             },
             {
-              title: 'd',
-              code: '4009'
+              title: 'ucharts',
+              code: '3008'
             },
             {
-              title: 'd',
-              code: '4002'
+              title: '到详情',
+              code: '3009'
             },
             {
-              title: 'd',
-              code: '4003'
-            },
-            {
-              title: 'd',
-              code: '4004'
-            },
-            {
-              title: 'd',
-              code: '4005'
-            },
-            {
-              title: 'd',
-              code: '4006'
-            },
-            {
-              title: 'd',
-              code: '4007'
-            },
-            {
-              title: 'd',
-              code: '4008'
+              title: '划视频',
+              code: '3010'
             }
           ]
         }

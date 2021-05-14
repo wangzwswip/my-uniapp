@@ -358,12 +358,12 @@
         "navigationBarTitleText": "表格"
       }
     },
-		{
-      "path": "pages/extUI/tag/tag",
-      "style": {
-        "navigationBarTitleText": "标签"
-      }
-    },
+		// {
+    //   "path": "pages/extUI/tag/tag",
+    //   "style": {
+    //     "navigationBarTitleText": "标签"
+    //   }
+    // },
 		{
       "path": "pages/extUI/title/title",
       "style": {
@@ -440,6 +440,170 @@
         "navigationBarTitleText": "视频"
       }
     },
+		// #ifdef APP-PLUS || H5
+		{
+			"path": "pages/template/nav-city-dropdown/nav-city-dropdown",
+			"style": {
+				"navigationBarTitleText": "导航栏带城市选择",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "北京市",
+							"fontSize": "14",
+							"select": true,
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		},
+		{
+      "path": "pages/template/nav-button/nav-button",
+      "style": {
+				"navigationBarTitleText": "导航栏带自定义按钮",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"type": "share"
+							},
+							{
+								"type": "favorite"
+							}
+						]
+					}
+				}
+			}
+    },
+		{
+			"path": "pages/template/nav-dot/nav-dot",
+			"style": {
+				"navigationBarTitleText": "导航栏带红点和角标",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "消息",
+								"fontSize": "14",
+								"redDot": true
+							},
+							{
+								"text": "关注",
+								"fontSize": "14",
+								"badgeText": "12"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/template/nav-search-input/nav-search-input",
+			"style": {
+				"navigationBarTitleText": "导航栏带搜索框",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue537",
+							"width": "40px",
+							"fontSize": "28px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入地址 如：大钟寺",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		// #endif
+		// #ifdef APP-PLUS || H5 || MP-ALIPAY
+		{
+			"path": "pages/template/nav-transparent/nav-transparent",
+			"style": {
+				"navigationBarTitleText": "透明渐变导航栏",
+				"transparentTitle": "auto"
+			}
+		},
+		// #endif
+		// #ifdef APP-PLUS || H5 || MP-ALIPAY
+		{
+			"path": "pages/template/nav-image/nav-image",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"titleImage": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dc-site/b3e4cbd0-517d-11eb-a16f-5b3e54966275.png"
+			}
+		},
+		// #endif
+		{
+			"path": "pages/template/tabbar/tabbar",
+			"style": {
+				"navigationBarTitleText": "可拖动顶部选项卡"
+			}
+		},
+		{
+			"path": "pages/template/tabbar/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情页面"
+			}
+		},
+		{
+			"path": "pages/template/ucharts/ucharts",
+			"style": {
+				"navigationBarTitleText": "ucharts"
+			}
+		},
+		{
+			"path": "pages/template/list2detail-detail/list2detail-detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": []
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/template/list2detail-list/list2detail-list",
+			"style": {
+				"navigationBarTitleText": "列表到详情示例",
+				"enablePullDownRefresh": true
+			}
+		},
+		// #ifdef APP-PLUS || H5 || MP-WEIXIN || MP-QQ
+		{
+			"path": "pages/template/swiper-vertical/swiper-vertical",
+			"style": {
+				"navigationBarTitleText": "上下滑动切换视频",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/template/swiper-list/swiper-list",
+			"style": {
+				"navigationBarTitleText": "swiper-list"
+			}
+		},
+		// #endif
 		{
 			"path": "pages/tabBar/OtherExa/OtherExa",
 			"style": {
