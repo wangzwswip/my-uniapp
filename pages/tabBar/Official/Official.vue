@@ -93,7 +93,7 @@ const keys = {
   },
   '3007': {
     icon: '../../../static/images/main/icon_3007.png',
-    path: '../material/storehouse/storehouse'
+    path: '../../API/device/device'
   },
   '3008': {
     icon: '../../../static/images/main/icon_3007.png',
@@ -103,19 +103,19 @@ const keys = {
   // 机械管理
   '4001': {
     icon: '../../../static/images/main/icon_4001.png',
-    path: '../machine/machine-plan/new-plan/new-plan'
+    path: '../../API/request/request'
   },
   '4002': {
     icon: '../../../static/images/main/icon_4002.png',
-    path: '../machine/machine-lease/machine-lease'
+    path: '../../API/websocket/websocket'
   },
   '4003': {
     icon: '../../../static/images/main/icon_4003.png',
-    path: '../machine/work-in/work-in'
+    path: '../../API/media/media'
   },
   '4004': {
     icon: '../../../static/images/main/icon_4004.png',
-    path: '../machine/work-off/work-off'
+    path: '../../API/location/location'
   },
   '4005': {
     icon: '../../../static/images/main/icon_4005.png',
@@ -141,7 +141,7 @@ const keys = {
   // 安全管理
   '5001': {
     icon: '../../../static/images/main/icon_5001.png',
-    path: '../safety/patrol-plan/new-plan/new-plan'
+    path: '../../extUI/badge/badge'
   },
   '5002': {
     icon: '../../../static/images/main/icon_5002.png',
@@ -275,59 +275,55 @@ export default {
               code: '3006'
             },
             {
-              title: '盘库登记',
+              title: '设备信息',
               code: '3007'
             }
           ]
         },
         {
-          title: '接口',
+          title: '网络',
           code: '40',
           child: [
             {
-              title: '机械计划',
+              title: '请求',
               code: '4001'
             },
             {
-              title: '计划审批',
-              code: '4009'
-            },
-            {
-              title: '机械租赁',
+              title: 'websocket',
               code: '4002'
             },
             {
-              title: '上岗报备',
+              title: '媒体',
               code: '4003'
             },
             {
-              title: '离岗记录',
+              title: '位置',
               code: '4004'
-            },
-            {
-              title: '进场检验',
-              code: '4005'
-            },
-            {
-              title: '特种人员登记',
-              code: '4006'
-            },
-            {
-              title: '机械问题',
-              code: '4007'
-            },
-            {
-              title: '台班签认',
-              code: '4008'
             }
+            // {
+            //   title: '进场检验',
+            //   code: '4005'
+            // },
+            // {
+            //   title: '特种人员登记',
+            //   code: '4006'
+            // },
+            // {
+            //   title: '机械问题',
+            //   code: '4007'
+            // },
+            // {
+            //   title: '台班签认',
+            //   code: '4008'
+            // }
           ]
         },
         {
-          title: '接口',
+          title: '扩展组件',
           code: '50',
           child: [
             {
-              title: '导航栏',
+              title: '角标',
               code: '5001'
             },
             {
@@ -380,6 +376,7 @@ export default {
   },
   methods: {
     hanldeClick(_item) {
+      console.log('带你记录', _item);
       uni.navigateTo({
         url: keys[_item.code].path + '?title=' + _item.title
       })

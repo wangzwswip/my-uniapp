@@ -118,6 +118,36 @@
         "navigationBarTitleText": "弹窗"
       }
     },
+		{
+      "path": "pages/API/device/device",
+      "style": {
+        "navigationBarTitleText": "设备信息"
+      }
+    },
+		{
+      "path": "pages/API/request/request",
+      "style": {
+        "navigationBarTitleText": "请求"
+      }
+    },
+		{
+      "path": "pages/API/websocket/websocket",
+      "style": {
+        "navigationBarTitleText": "websocket"
+      }
+    },
+		{
+      "path": "pages/API/location/location",
+      "style": {
+        "navigationBarTitleText": "位置"
+      }
+    },
+		{
+      "path": "pages/extUI/badge/badge",
+      "style": {
+        "navigationBarTitleText": "角标"
+      }
+    },
 		// 我的下面模块
 		{
 			"path": "pages/tabBar/My/My",
