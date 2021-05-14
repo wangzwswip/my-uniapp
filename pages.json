@@ -148,6 +148,234 @@
         "navigationBarTitleText": "角标"
       }
     },
+		{
+      "path": "pages/extUI/calendar/calendar",
+      "style": {
+        "navigationBarTitleText": "日历"
+      }
+    },
+		{
+      "path": "pages/extUI/card/card",
+      "style": {
+        "navigationBarTitleText": "卡片"
+      }
+    },
+		{
+      "path": "pages/extUI/collapse/collapse",
+      "style": {
+        "navigationBarTitleText": "折叠面板"
+      }
+    },
+		{
+      "path": "pages/extUI/combox/combox",
+      "style": {
+        "navigationBarTitleText": "组合框"
+      }
+    },
+		{
+      "path": "pages/extUI/countdown/countdown",
+      "style": {
+        "navigationBarTitleText": "倒计时"
+      }
+    },
+		{
+      "path": "pages/extUI/data-checkbox/data-checkbox",
+      "style": {
+        "navigationBarTitleText": "数据选择器"
+      }
+    },
+		{
+      "path": "pages/extUI/data-picker/data-picker",
+      "style": {
+        "navigationBarTitleText": "级联选择"
+      }
+    },
+		{
+      "path": "pages/extUI/date-picker/date-picker",
+      "style": {
+        "navigationBarTitleText": "日期选择"
+      }
+    },
+		{
+      "path": "pages/extUI/dateformat/dateformat",
+      "style": {
+        "navigationBarTitleText": "日期格式化"
+      }
+    },
+		{
+      "path": "pages/extUI/datetime-picker/datetime-picker",
+      "style": {
+        "navigationBarTitleText": "日期选择"
+      }
+    },
+		{
+      "path": "pages/extUI/drawer/drawer",
+      "style": {
+        "navigationBarTitleText": "抽屉"
+      }
+    },
+		{
+      "path": "pages/extUI/easyinput/easyinput",
+      "style": {
+        "navigationBarTitleText": "输入框"
+      }
+    },
+		{
+      "path": "pages/extUI/fab/fab",
+      "style": {
+        "navigationBarTitleText": "悬浮按钮"
+      }
+    },
+		{
+      "path": "pages/extUI/fav/fav",
+      "style": {
+        "navigationBarTitleText": "收藏按钮"
+      }
+    },
+		{
+      "path": "pages/extUI/file-picker/file-picker",
+      "style": {
+        "navigationBarTitleText": "文件上传"
+      }
+    },
+		{
+      "path": "pages/extUI/forms/forms",
+      "style": {
+        "navigationBarTitleText": "表单"
+      }
+    },
+		{
+      "path": "pages/extUI/goods-nav/goods-nav",
+      "style": {
+        "navigationBarTitleText": "商品导航"
+      }
+    },
+		{
+      "path": "pages/extUI/icons/icons",
+      "style": {
+        "navigationBarTitleText": "字体图标"
+      }
+    },
+		{
+      "path": "pages/extUI/indexed-list/indexed-list",
+      "style": {
+        "navigationBarTitleText": "分类列表"
+      }
+    },
+		{
+      "path": "pages/extUI/link/link",
+      "style": {
+        "navigationBarTitleText": "超链接"
+      }
+    },
+		{
+      "path": "pages/extUI/list/list",
+      "style": {
+        "navigationBarTitleText": "列表"
+      }
+    },
+		{
+      "path": "pages/extUI/load-more/load-more",
+      "style": {
+        "navigationBarTitleText": "加载更多"
+      }
+    },
+		{
+      "path": "pages/extUI/nav-bar/nav-bar",
+      "style": {
+        "navigationBarTitleText": "自定义导航栏"
+      }
+    },
+		{
+      "path": "pages/extUI/notice-bar/notice-bar",
+      "style": {
+        "navigationBarTitleText": "通告栏"
+      }
+    },
+		{
+      "path": "pages/extUI/number-box/number-box",
+      "style": {
+        "navigationBarTitleText": "数字输入框"
+      }
+    },
+		{
+      "path": "pages/extUI/pagination/pagination",
+      "style": {
+        "navigationBarTitleText": "分页器"
+      }
+    },
+		{
+      "path": "pages/extUI/popup/popup",
+      "style": {
+        "navigationBarTitleText": "弹出层"
+      }
+    },
+		{
+      "path": "pages/extUI/rate/rate",
+      "style": {
+        "navigationBarTitleText": "评分"
+      }
+    },
+		{
+      "path": "pages/extUI/row/row",
+      "style": {
+        "navigationBarTitleText": "行布局"
+      }
+    },
+		{
+      "path": "pages/extUI/search-bar/search-bar",
+      "style": {
+        "navigationBarTitleText": "搜索栏"
+      }
+    },
+		{
+      "path": "pages/extUI/segmented-control/segmented-control",
+      "style": {
+        "navigationBarTitleText": "分段器"
+      }
+    },
+		{
+      "path": "pages/extUI/steps/steps",
+      "style": {
+        "navigationBarTitleText": "步骤条"
+      }
+    },
+		{
+      "path": "pages/extUI/swipe-action/swipe-action",
+      "style": {
+        "navigationBarTitleText": "滑动"
+      }
+    },
+		{
+      "path": "pages/extUI/swiper-dot/swiper-dot",
+      "style": {
+        "navigationBarTitleText": "轮播图指示点"
+      }
+    },
+		{
+      "path": "pages/extUI/table/table",
+      "style": {
+        "navigationBarTitleText": "表格"
+      }
+    },
+		{
+      "path": "pages/extUI/tag/tag",
+      "style": {
+        "navigationBarTitleText": "标签"
+      }
+    },
+		{
+      "path": "pages/extUI/title/title",
+      "style": {
+        "navigationBarTitleText": "标题"
+      }
+    },
+		{
+      "path": "pages/extUI/transition/transition",
+      "style": {
+        "navigationBarTitleText": "过渡"
+      }
+    },
 		// 我的下面模块
 		{
 			"path": "pages/tabBar/My/My",
