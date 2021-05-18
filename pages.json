@@ -100,6 +100,12 @@
         "navigationBarTitleText": "动画"
       }
     },
+	{
+	  "path": "pages/API/media/media",
+	  "style": {
+	    "navigationBarTitleText": "媒体"
+	  }
+	},
 		{
       "path": "pages/API/get-node-info/get-node-info",
       "style": {
@@ -482,7 +488,7 @@
 					"titleNView": {
 						"buttons": [{
 								"text": "消息",
-								"fontSize": "14",
+								"fontSiz"e": "14,
 								"redDot": true
 							},
 							{
